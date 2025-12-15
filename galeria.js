@@ -87,77 +87,77 @@ const trabajosData = {
     templado: [
         // La ruta corregida de la imagen
         "Imagenes nuevas/Cocina 2.png",
-        "imagenes nuevas/Repisas de copas 1.png",
-        "imagenes nuevas/Cocina.png",
-        "imagenes nuevas/Domo .png",
-        "imagenes nuevas/Repisas 3.png",
-        "imagenes nuevas/Cama.png",
-        "imagenes nuevas/Domo 3.png",
-        "imagenes nuevas/Domo 4.png",
-        "imagenes nuevas/Fachada 5.png",
-        "imagenes nuevas/Fachada 6.png",
-        "imagenes nuevas/Repisas 4.png",
-        "imagenes nuevas/Lavabo 1.png",
-        "imagenes nuevas/Barril.png",
-        "imagenes nuevas/Locales 1.png",
-        "imagenes nuevas/Repisas De Esquineros 2.png"
+        "Imagenes nuevas/Repisas de copas 1.png",
+        "Imagenes nuevas/Cocina.png",
+        "Imagenes nuevas/Domo .png",
+        "Imagenes nuevas/Repisas 3.png",
+        "Imagenes nuevas/Cama.png",
+        "Imagenes nuevas/Domo 3.png",
+        "Imagenes nuevas/Domo 4.png",
+        "Imagenes nuevas/Fachada 5.png",
+        "Imagenes nuevas/Fachada 6.png",
+        "Imagenes nuevas/Repisas 4.png",
+        "Imagenes nuevas/Lavabo 1.png",
+        "Imagenes nuevas/Barril.png",
+        "Imagenes nuevas/Locales 1.png",
+        "Imagenes nuevas/Repisas De Esquineros 2.png"
 
     ],
     canceles: [
-        "imagenes nuevas/Cancel Con Lineas curveadas.png",
-        "imagenes nuevas/Cancel De Bambu.png",
-        "imagenes nuevas/Cancel De Baño 1.png",
-        "imagenes nuevas/Cancel Normal 1.png",
-        "imagenes nuevas/Cancel De Baño 2.png",
-        "imagenes nuevas/Cancel De Baño 3.png",
-        "imagenes nuevas/Cancel Normal 4.png",
-        "imagenes nuevas/Cancel De Baño 4.png",
-        "imagenes nuevas/Cancel De Baño 5.png",
-        "imagenes nuevas/Cancel Normal Satinado 3.png"
+        "Imagenes nuevas/Cancel Con Lineas curveadas.png",
+        "Imagenes nuevas/Cancel De Bambu.png",
+        "Imagenes nuevas/Cancel De Baño 1.png",
+        "Imagenes nuevas/Cancel Normal 1.png",
+        "Imagenes nuevas/Cancel De Baño 2.png",
+        "Imagenes nuevas/Cancel De Baño 3.png",
+        "Imagenes nuevas/Cancel Normal 4.png",
+        "Imagenes nuevas/Cancel De Baño 4.png",
+        "Imagenes nuevas/Cancel De Baño 5.png",
+        "Imagenes nuevas/Cancel Normal Satinado 3.png"
 
     ],
     esmerilado: [
-        "imagenes nuevas/Grabado Esmerilado 8.png",
-        "imagenes nuevas/Cancel De Baño Esmerilado 6.png",
-        "imagenes nuevas/Grabado Esmerilado 1.png",
-        "imagenes nuevas/Cancel De Baño Esmerilado 7.png",
-        "imagenes nuevas/Reconocimento 1.png",
-        "imagenes nuevas/Grabado Esmerilado 2.png",
-        "imagenes nuevas/Cancel De Baño Esmerilado 8.png",
-        "imagenes nuevas/Grabado Esmerilado 3.png",
-        "imagenes nuevas/Reconocimiento 2.png",
-        "imagenes nuevas/Cancel De Baño Esmerilado 9.png",
-        "imagenes nuevas/Grabado Esmerilado 4.png",
-        "imagenes nuevas/Cancel De Baño Esmerilado 10.png",
-        "imagenes nuevas/Grabado Esmerilado 5.png",
-        "imagenes nuevas/Reconocimiento 3.png",
-        "imagenes nuevas/Cancel Normal Esmerilado 2.png",
-        "imagenes nuevas/Grabado Esmerilado 6.png",
-        "imagenes nuevas/Domo 2.png",
-        "imagenes nuevas/Grabado Esmerilado 7.png",
-        "imagenes nuevas/Grabado Esmerilado 9.png",
-        "imagenes nuevas/Reconocimiento 4.png",
-        "imagenes nuevas/Grabado Esmerilado 10.png"
+        "Imagenes nuevas/Grabado Esmerilado 8.png",
+        "Imagenes nuevas/Cancel De Baño Esmerilado 6.png",
+        "Imagenes nuevas/Grabado Esmerilado 1.png",
+        "Imagenes nuevas/Cancel De Baño Esmerilado 7.png",
+        "Imagenes nuevas/Reconocimento 1.png",
+        "Imagenes nuevas/Grabado Esmerilado 2.png",
+        "Imagenes nuevas/Cancel De Baño Esmerilado 8.png",
+        "Imagenes nuevas/Grabado Esmerilado 3.png",
+        "Imagenes nuevas/Reconocimiento 2.png",
+        "Imagenes nuevas/Cancel De Baño Esmerilado 9.png",
+        "Imagenes nuevas/Grabado Esmerilado 4.png",
+        "Imagenes nuevas/Cancel De Baño Esmerilado 10.png",
+        "Imagenes nuevas/Grabado Esmerilado 5.png",
+        "Imagenes nuevas/Reconocimiento 3.png",
+        "Imagenes nuevas/Cancel Normal Esmerilado 2.png",
+        "Imagenes nuevas/Grabado Esmerilado 6.png",
+        "Imagenes nuevas/Domo 2.png",
+        "Imagenes nuevas/Grabado Esmerilado 7.png",
+        "Imagenes nuevas/Grabado Esmerilado 9.png",
+        "Imagenes nuevas/Reconocimiento 4.png",
+        "Imagenes nuevas/Grabado Esmerilado 10.png"
     ],
     espejo: [
-        "imagenes nuevas/Espejo Con Luces 2.png",
-        "imagenes nuevas/Espejo Con Luces Led 3.png",
-        "imagenes nuevas/Espejo Con luces.png"
+        "Imagenes nuevas/Espejo Con Luces 2.png",
+        "Imagenes nuevas/Espejo Con Luces Led 3.png",
+        "Imagenes nuevas/Espejo Con luces.png"
     ],
     Fachada: [
-        "imagenes nuevas/Fachada 7.png",
-        "imagenes nuevas/Fachada 1.png",
-        "imagenes nuevas/Fachada 8.png",
-        "imagenes nuevas/Fachada 2.png",
-        "imagenes nuevas/Fachada 3.png",
-        "imagenes nuevas/Fachada 4.png",
+        "Imagenes nuevas/Fachada 7.png",
+        "Imagenes nuevas/Fachada 1.png",
+        "Imagenes nuevas/Fachada 8.png",
+        "Imagenes nuevas/Fachada 2.png",
+        "Imagenes nuevas/Fachada 3.png",
+        "Imagenes nuevas/Fachada 4.png",
     ],
     pasamanos: [
-        "imagenes nuevas/Pasamanos 1.png",
-        "imagenes nuevas/Pasamanos 2.png",
-        "imagenes nuevas/Pasamanos 3.png",
-        "imagenes nuevas/Pasamanos 4.png",
-        "imagenes nuevas/Pasamanos Con Pecera 5.png"
+        "Imagenes nuevas/Pasamanos 1.png",
+        "Imagenes nuevas/Pasamanos 2.png",
+        "Imagenes nuevas/Pasamanos 3.png",
+        "Imagenes nuevas/Pasamanos 4.png",
+        "Imagenes nuevas/Pasamanos Con Pecera 5.png"
     ]
 };
 
@@ -317,4 +317,5 @@ document.addEventListener('keydown', function(event) {
             closeModal('trabajos');
         }
     }
+
 });
