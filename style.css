@@ -524,7 +524,7 @@ nav {
     height: 45vh;
     background:
         linear-gradient(135deg, rgba(44,62,80,0.85), rgba(52,152,219,0.85)),
-        url('imagenes/Logo Taller-v2.png');
+        url('Imagenes nuevas/Logo Taller-v2.png');
     background-size: cover;
     background-position: center;
     display: grid;
@@ -716,3 +716,4 @@ footer {
         padding: 2rem;
     }
 }
+
