@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Vidrios y Templados Lopez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h2>Vidrios y Templados Lopez</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery-hero">
+            <div class="container">
+                <h1>Nuestra Galería de Vidrios</h1>
+                <p>Descubre nuestros diferentes tipos de vidrios y trabajos realizados</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="container">
+                <div class="gallery-grid">
+                    <!-- Vidrio 1: Templado -->
+                    <div class="glass-item">
+                        <div class="glass-image">
+                            <img src="imagenes nuevas/Cancel De Baño 1.png" alt="Vidrio Templado">
+                        </div>
+                        <h3>Vidrio Templado</h3>
+                        <div class="glass-buttons">
+                            <button class="btn-caracteristicas" onclick="showCaracteristicas('templado')">Características</button>
+                            <button class="btn-trabajos" onclick="showTrabajos('templado')">Trabajos Realizados</button>
+                        </div>
+                    </div>
+
+                    <!-- Vidrio 2: Canceles -->
+                    <div class="glass-item">
+                        <div class="glass-image">
+                            <img src="imagenes nuevas/Cancel De Baño 3.png" alt="canceles">
+                        </div>
+                        <h3>Canceles</h3>
+                        <div class="glass-buttons">
+                            <button class="btn-caracteristicas" onclick="showCaracteristicas('canceles')">Características</button>
+                            <button class="btn-trabajos" onclick="showTrabajos('canceles')">Trabajos Realizados</button>
+                        </div>
+                    </div>
+
+                    <!-- Vidrio 3: Esmerilado -->
+                    <div class="glass-item">
+                        <div class="glass-image">
+                            <img src="imagenes nuevas/Grabado Esmerilado 7.png" alt="Vidrio esmerilado">
+                        </div>
+                        <h3>Vidrio Esmerilado</h3>
+                        <div class="glass-buttons">
+                            <button class="btn-caracteristicas" onclick="showCaracteristicas('esmerilado')">Características</button>
+                            <button class="btn-trabajos" onclick="showTrabajos('esmerilado')">Trabajos Realizados</button>
+                        </div>
+                    </div>
+
+                    <!-- Vidrio 4: Espejos -->
+                    <div class="glass-item">
+                        <div class="glass-image">
+                            <img src="imagenes nuevas/Espejo Con Luces Led 3.png" alt="espejo">
+                        </div>
+                        <h3>Espejos</h3>
+                        <div class="glass-buttons">
+                            <button class="btn-caracteristicas" onclick="showCaracteristicas('espejo')">Características</button>
+                            <button class="btn-trabajos" onclick="showTrabajos('espejo')">Trabajos Realizados</button>
+                        </div>
+                    </div>
+
+                    <!-- Vidrio 5: Bicelados -->
+                    <div class="glass-item">
+                        <div class="glass-image">
+                            <img src="imagenes nuevas/Fachada 9.png" alt="Fachada">
+                        </div>
+                        <h3>Fachada</h3>
+                        <div class="glass-buttons">
+                            <button class="btn-caracteristicas" onclick="showCaracteristicas('Fachada')">Características</button>
+                            <button class="btn-trabajos" onclick="showTrabajos('Fachada')">Trabajos Realizados</button>
+                        </div>
+                    </div>
+
+                    <!-- Vidrio 6: Pasamanos -->
+                    <div class="glass-item">
+                        <div class="glass-image">
+                            <img src="imagenes nuevas/Pasamanos 3.png" alt="Pasamanos">
+                        </div>
+                        <h3>Pasamanos</h3>
+                        <div class="glass-buttons">
+                            <button class="btn-caracteristicas" onclick="showCaracteristicas('pasamanos')">Características</button>
+                            <button class="btn-trabajos" onclick="showTrabajos('pasamanos')">Trabajos Realizados</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal para características -->
+        <div id="modal-caracteristicas" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('caracteristicas')">&times;</span>
+                <h3 id="modal-title-caracteristicas"></h3>
+                <div id="modal-body-caracteristicas"></div>
+            </div>
+        </div>
+
+        <!-- Modal para trabajos -->
+        <div id="modal-trabajos" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('trabajos')">&times;</span>
+                <h3 id="modal-title-trabajos"></h3>
+                <div id="modal-body-trabajos" class="trabajos-grid"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Vidrios y Templados Lopez. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="galeria.js"></script>
+</body>
+</html>
