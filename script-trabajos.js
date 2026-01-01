@@ -2,7 +2,16 @@
 const trabajosData = {
     Templados: {
         titulo: "Templados",
-        info: "Nuestras mamparas de baño están fabricadas con vidrio templado de alta calidad, garantizando seguridad y durabilidad. El vidrio templado es hasta 5 veces más resistente que el vidrio común y, en caso de rotura, se fragmenta en pequeños pedazos redondeados, minimizando el riesgo de lesiones. Ofrecemos diferentes espesores (6mm, 8mm y 10mm) y acabados personalizados. Incluimos herrajes de acero inoxidable o aluminio de primera calidad, resistentes a la humedad y corrosión. Todas nuestras instalaciones cuentan con garantía y son realizadas por personal certificado.",
+        info: `
+            <ul>
+                <li><strong>Resistencia:</strong> 5 veces más resistente que el vidrio común</li>
+                <li><strong>Seguridad:</strong> Se fragmenta en pequeños trozos redondeados</li>
+                <li><strong>Temperatura:</strong> Resiste cambios térmicos hasta 700°C</li>
+                <li><strong>Grosor:</strong> Disponible de 4mm a 19mm</li>
+                <li><strong>Usos:</strong> Puertas, ventanas, fachadas</li>
+                <li><strong>Certificación:</strong> Cumple normas NOM-146-SCFI</li>
+            </ul>
+        `,
         imagenes: [
         "Imagenes/Cocina 2.png",
         "Imagenes/Repisas de copas 1.png",
@@ -24,8 +33,17 @@ const trabajosData = {
     },
     Canceles: {
         titulo: "Canceles",
-        info: "Fabricamos ventanas de aluminio y vidrio con los más altos estándares de calidad. Nuestras ventanas ofrecen excelente aislamiento térmico y acústico, perfectas para climas extremos. Utilizamos perfiles de aluminio de alta resistencia con recubrimiento electrostático que garantiza durabilidad y resistencia a la intemperie. El vidrio puede ser claro, tintado, o con protección UV según tus necesidades. Disponibles en diversos sistemas: corredizas, abatibles, panorámicas y proyectantes. Todas incluyen mosquiteros de cortesía y herrajes de máxima calidad con garantía extendida.",
-        imagenes: [
+        info:`
+        <ul>
+                <li><strong>Versatilidad de uso:</strong> Ideales para baños, oficinas, locales comerciales, exteriores o divisiones interiores, adaptándose a diferentes necesidades.</li>
+                <li><strong>Diseño moderno y estético:</strong> Aportan un acabado elegante y minimalista que realza cualquier espacio.</li>
+                <li><strong>Durabilidad y resistencia:</strong> Fabricados con vidrio templado y aluminio de alta calidad, soportan el uso constante y las condiciones del ambiente.</li>
+                <li><strong>Seguridad confiable:</strong> Vidrios templados de alta resistencia que minimizan riesgos en caso de impacto.</li>
+                <li><strong>Fácil limpieza y mantenimiento:</strong> Superficies lisas que evitan acumulación de polvo, humedad o sarro.</li>
+                <li><strong>Opciones personalizadas:</strong> Gran variedad de estilos, acabados y sistemas (corredizos, abatibles o fijos) que se ajustan a cada proyecto.</li>
+            </ul>
+        `,
+        imagenes:[
         "Imagenes/Cancel Con Lineas curveadas.png",
         "Imagenes/Cancel De Bambu.png",
         "Imagenes/Cancel De Baño 1.png",
@@ -40,8 +58,16 @@ const trabajosData = {
     },
     Esmerilados: {
         titulo: "Esmerilados",
-        info: "Nuestros espejos están fabricados con cristal de alta calidad y recubrimiento de plata premium que garantiza un reflejo perfecto y sin distorsiones. Ofrecemos espejos en diversos estilos: modernos con iluminación LED integrada, clásicos con marco biselado, o minimalistas sin marco. Todos los espejos cuentan con tratamiento anti-humedad en los bordes, ideal para baños y áreas húmedas. Realizamos cortes personalizados a medida para cualquier espacio. La instalación incluye sistema de montaje seguro y nivelación profesional. Perfectos para baños, recámaras, vestidores y gimnasios.",
-        imagenes: [
+        info: `<ul>
+                <li><strong>Privacidad con estilo:</strong> Permiten el paso de la luz natural sin comprometer la intimidad, ideales para baños, oficinas y divisiones interiores.</li>
+                <li><strong>Diseño elegante y sofisticado:</strong> Acabado satinado que aporta un toque moderno y distintivo a cualquier espacio.</li>
+                <li><strong>Versatilidad de aplicación:</strong> Se utilizan en canceles, puertas, ventanas, fachadas, mobiliario y áreas corporativas.</li>
+                <li><strong>Durabilidad y resistencia:</strong> Fabricados en vidrio de alta calidad que soporta el uso diario y conserva su apariencia con el tiempo.</li>
+                <li><strong>Fácil mantenimiento:</strong> Superficie tratada que se limpia con facilidad y mantiene un aspecto impecable.</li>
+                <li><strong>Opciones personalizadas:</strong> Disponibles en distintos espesores, tonos y diseños decorativos, adaptándose al estilo de cada proyecto.</li>
+            </ul>
+        `,
+    imagenes:[
         "Imagenes/Grabado Esmerilado 8.png",
         "Imagenes/Cancel De Baño Esmerilado 6.png",
         "Imagenes/Grabado Esmerilado 1.png",
@@ -67,7 +93,17 @@ const trabajosData = {
     },
     Espejos: {
         titulo: "Espejos",
-        info: "Puertas de vidrio templado diseñadas para ofrecer elegancia y funcionalidad. Fabricadas con vidrio de seguridad de 10mm o 12mm de espesor, garantizando máxima resistencia. Disponibles en sistemas batientes, corredizas o plegables según tus necesidades de espacio. Incluyen herrajes importados de acero inoxidable o aluminio con acabados en cromado, satinado o negro mate. El vidrio puede ser transparente, esmerilado, o con diseños personalizados mediante técnicas de grabado. Ideales para oficinas, baños, terrazas y divisiones de ambientes. Contamos con sistemas de cierre suave y seguros anti-pillado para mayor seguridad.",
+        info:`
+        <ul>
+                <li><strong>Variedad de diseños:</strong> Disponibles en estilos clásicos, modernos o con acabados esmerilados decorativos que realzan la elegancia de cualquier espacio.</li>
+                <li><strong>Funcionalidad y estética:</strong> Además de ser prácticos, amplían visualmente los espacios y aportan luminosidad.</li>
+                <li><strong>Personalización a medida:</strong> Se fabrican en diferentes formas, tamaños y acabados según las necesidades de cada proyecto.</li>
+                <li><strong>Durabilidad y resistencia:</strong> Elaborados con materiales de alta calidad que aseguran larga vida útil y mantienen el brillo intacto.</li>
+                <li><strong>Fácil instalación y mantenimiento:</strong> Se adaptan a muros, muebles o canceles y requieren cuidados mínimos para conservar su apariencia.</li>
+                <li><strong>Aplicaciones versátiles:</strong> Ideales para baños, recámaras, salas, vestidores, oficinas y comercios, aportando estilo y funcionalidad en cualquier lugar.</li>
+            </ul>
+        `,
+
         imagenes: [
         "Imagenes/Espejo Con Luces 2.png",
         "Imagenes/Espejo Con Luces Led 3.png",
@@ -76,7 +112,16 @@ const trabajosData = {
     },
     Fachadas: {
         titulo: "Fachadas",
-        info: "Barandales de cristal templado que combinan seguridad con diseño contemporáneo. Fabricados con vidrio de 10mm o 12mm de espesor, cumpliendo con todas las normas de seguridad vigentes. El sistema de fijación puede ser con herrajes vistos de acero inoxidable o con canal de aluminio para un acabado minimalista. Ideales para escaleras, balcones, terrazas y entrepisos. El vidrio puede ser transparente para maximizar la luz natural o esmerilado para mayor privacidad. Todos nuestros barandales son sometidos a pruebas de resistencia y carga antes de la instalación. Incluyen pasamanos de acero inoxidable o madera según preferencia.",
+        info: `
+        <ul>
+                <li><strong>Acabado elegante y distintivo:</strong> El borde biselado crea un efecto brillante y decorativo que realza cualquier diseño.</li>
+                <li><strong>Variedad de estilos:</strong> Disponibles en diferentes grosores, colores y combinaciones, incluyendo diseños con esmerilado o figuras personalizadas.</li>
+                <li><strong>Versatilidad de uso:</strong> Se aplican en espejos, puertas, ventanas, mesas, canceles y elementos decorativos.</li>
+                <li><strong>Aporta amplitud y luz:</strong> El bisel genera reflejos que iluminan el espacio y aportan sensación de mayor amplitud.</li>
+                <li><strong>Durabilidad y resistencia:</strong> Fabricados en vidrio de alta calidad, manteniendo su forma y brillo por muchos años.</li>
+                <li><strong>Toque decorativo exclusivo:</strong> Cada pieza puede personalizarse, convirtiéndose en un detalle único para interiores y proyectos arquitectónicos.</li>
+            </ul>
+        `,
         imagenes: [
         "Imagenes/Fachada 7.png",
         "Imagenes/Fachada 1.png",
@@ -88,7 +133,16 @@ const trabajosData = {
     },
     Pasamanos: {
         titulo: "Pasamanos",
-        info: "Sistemas de cancelería de aluminio y vidrio para dividir y aprovechar espacios de manera elegante y funcional. Perfectos para oficinas, consultorios, locales comerciales y hogares. Fabricados con perfiles de aluminio de alta calidad en diversos colores y acabados. El vidrio puede ser transparente, esmerilado, tintado o con films decorativos para privacidad. Ofrecemos sistemas de piso a techo, medias alturas o con puertas integradas. Todos los canceles cuentan con aislamiento acústico básico, ideal para crear espacios privados sin perder luminosidad. Incluyen sistemas de apertura con bisagras de alta durabilidad o sistemas corredizos según el espacio disponible.",
+        info:`
+        <ul>
+                <li><strong>Diseño moderno y elegante:</strong> Aportan un estilo minimalista y vanguardista que realza cualquier espacio o edificio.</li>
+                <li><strong>Seguridad y resistencia:</strong> Fabricados con vidrio templado o laminado, soportan impactos, cambios de temperatura y condiciones climáticas extremas.</li>
+                <li><strong>Versatilidad de instalación:</strong> Adaptables a escaleras, balcones, terrazas, oficinas, comercios y fachadas arquitectónicas.</li>
+                <li><strong>Aprovechamiento de luz y visibilidad:</strong> Permiten iluminación natural, vistas claras y sensación de amplitud sin sacrificar protección.Permiten iluminación natural, vistas claras y sensación de amplitud sin sacrificar protección.</li>
+                <li><strong>Fácil mantenimiento:</strong> Superficies lisas que se limpian fácilmente, conservando brillo y estética por mucho tiempo.</li>
+                <li><strong>Valor estético y funciona:</strong> Combinan seguridad, funcionalidad y estilo, aumentando el atractivo y la imagen de cualquier proyecto.</li>
+            </ul>
+        `,
         imagenes: [
         "Imagenes/Pasamanos 1.png",
         "Imagenes/Pasamanos 2.png",
